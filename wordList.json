@@ -1,0 +1,818 @@
+[
+  {
+    "ja": "あなたのもの",
+    "en": "yours"
+  },
+  {
+    "ja": "彼女のもの",
+    "en": "hers"
+  },
+  {
+    "ja": "それの",
+    "en": "its"
+  },
+  {
+    "ja": "彼らの、それらの",
+    "en": "their"
+  },
+  {
+    "ja": "彼らを、それらを",
+    "en": "them"
+  },
+  {
+    "ja": "彼らのもの、それらのもの",
+    "en": "theirs"
+  },
+  {
+    "ja": "私たちの",
+    "en": "our"
+  },
+  {
+    "ja": "私たちを",
+    "en": "we"
+  },
+  {
+    "ja": "私たちのもの",
+    "en": "our"
+  },
+  {
+    "ja": "何色",
+    "en": "what color"
+  },
+  {
+    "ja": "何の科目",
+    "en": "any subject"
+  },
+  {
+    "ja": "何時",
+    "en": "what time"
+  },
+  {
+    "ja": "今日は何曜日？",
+    "en": "what day is it today?"
+  },
+  {
+    "ja": "今日の日付は？",
+    "en": "what is the date today?"
+  },
+  {
+    "ja": "あなたの好きな～はなんですか？",
+    "en": "what is your favorite?"
+  },
+  {
+    "ja": "どこ",
+    "en": "where"
+  },
+  {
+    "ja": "誰の",
+    "en": "whose"
+  },
+  {
+    "ja": "どちらの",
+    "en": "which"
+  },
+  {
+    "ja": "どうやって",
+    "en": "how"
+  },
+  {
+    "ja": "どうやって～へ行きますか？",
+    "en": "how do you go to?"
+  },
+  {
+    "ja": "元気ですか？",
+    "en": "how are you?"
+  },
+  {
+    "ja": "いくら",
+    "en": "how much"
+  },
+  {
+    "ja": "いくつ",
+    "en": "how many"
+  },
+  {
+    "ja": "～はどうですか？",
+    "en": "how about?"
+  },
+  {
+    "ja": "1時",
+    "en": "one o’clock"
+  },
+  {
+    "ja": "2時",
+    "en": "two o’clock"
+  },
+  {
+    "ja": "3時",
+    "en": "three o’clock"
+  },
+  {
+    "ja": "4時",
+    "en": "four o’clock"
+  },
+  {
+    "ja": "5時",
+    "en": "five o’clock"
+  },
+  {
+    "ja": "6時",
+    "en": "six o’clock"
+  },
+  {
+    "ja": "7時",
+    "en": "seven o’clock"
+  },
+  {
+    "ja": "8時",
+    "en": "eight o’clock"
+  },
+  {
+    "ja": "9時",
+    "en": "nine o’clock"
+  },
+  {
+    "ja": "10時",
+    "en": "ten o’clock"
+  },
+  {
+    "ja": "11時",
+    "en": "eleven o’clock"
+  },
+  {
+    "ja": "12時",
+    "en": "twelve o’clock"
+  },
+  {
+    "ja": "分",
+    "en": "part"
+  },
+  {
+    "ja": "時間",
+    "en": "time"
+  },
+  {
+    "ja": "月",
+    "en": "month"
+  },
+  {
+    "ja": "深夜",
+    "en": "midnight"
+  },
+  {
+    "ja": "誕生日",
+    "en": "birthday"
+  },
+  {
+    "ja": "火曜日",
+    "en": "tuesday"
+  },
+  {
+    "ja": "水曜日",
+    "en": "wednesday"
+  },
+  {
+    "ja": "木曜日",
+    "en": "thursday"
+  },
+  {
+    "ja": "金曜日",
+    "en": "friday"
+  },
+  {
+    "ja": "土曜日",
+    "en": "saturday"
+  },
+  {
+    "ja": "1月",
+    "en": "january"
+  },
+  {
+    "ja": "2月",
+    "en": "february"
+  },
+  {
+    "ja": "3月",
+    "en": "march"
+  },
+  {
+    "ja": "4月",
+    "en": "april"
+  },
+  {
+    "ja": "5月",
+    "en": "in may"
+  },
+  {
+    "ja": "6月",
+    "en": "june"
+  },
+  {
+    "ja": "7月",
+    "en": "july"
+  },
+  {
+    "ja": "8月",
+    "en": "august"
+  },
+  {
+    "ja": "9月",
+    "en": "september"
+  },
+  {
+    "ja": "10月",
+    "en": "october"
+  },
+  {
+    "ja": "11月",
+    "en": "november"
+  },
+  {
+    "ja": "12月",
+    "en": "december"
+  },
+  {
+    "ja": "夏",
+    "en": "summer"
+  },
+  {
+    "ja": "秋",
+    "en": "autumn"
+  },
+  {
+    "ja": "秋",
+    "en": "autumn"
+  },
+  {
+    "ja": "カナダ",
+    "en": "canada"
+  },
+  {
+    "ja": "オーストラリア",
+    "en": "australia"
+  },
+  {
+    "ja": "スペイン",
+    "en": "spain"
+  },
+  {
+    "ja": "中国",
+    "en": "china"
+  },
+  {
+    "ja": "フランス",
+    "en": "france"
+  },
+  {
+    "ja": "ドイツ",
+    "en": "germany"
+  },
+  {
+    "ja": "ブラジル",
+    "en": "brazil"
+  },
+  {
+    "ja": "国",
+    "en": "country"
+  },
+  {
+    "ja": "アフリカ",
+    "en": "africa"
+  },
+  {
+    "ja": "ヨーロッパ",
+    "en": "europe"
+  },
+  {
+    "ja": "場所",
+    "en": "place"
+  },
+  {
+    "ja": "駅",
+    "en": "station"
+  },
+  {
+    "ja": "空港",
+    "en": "airport"
+  },
+  {
+    "ja": "公園",
+    "en": "park"
+  },
+  {
+    "ja": "市役所",
+    "en": "city hall"
+  },
+  {
+    "ja": "病院",
+    "en": "hospital"
+  },
+  {
+    "ja": "郵便局",
+    "en": "post office"
+  },
+  {
+    "ja": "店",
+    "en": "shop"
+  },
+  {
+    "ja": "スーパー",
+    "en": "supermarket"
+  },
+  {
+    "ja": "山",
+    "en": "mountain"
+  },
+  {
+    "ja": "レストラン",
+    "en": "restaurant"
+  },
+  {
+    "ja": "寝室",
+    "en": "bedroom"
+  },
+  {
+    "ja": "キッチン/台所",
+    "en": "kitchen"
+  },
+  {
+    "ja": "（トイレつきの）お風呂",
+    "en": "bath"
+  },
+  {
+    "ja": "教室",
+    "en": "classroom"
+  },
+  {
+    "ja": "体育館",
+    "en": "gym"
+  },
+  {
+    "ja": "晴れている",
+    "en": "sunny"
+  },
+  {
+    "ja": "曇っている",
+    "en": "it is cloudy"
+  },
+  {
+    "ja": "雨が降っている",
+    "en": "it's raining"
+  },
+  {
+    "ja": "雪が降っている",
+    "en": "it's snowing"
+  },
+  {
+    "ja": "霧がかっている",
+    "en": "foggy"
+  },
+  {
+    "ja": "晴天",
+    "en": "sunshine"
+  },
+  {
+    "ja": "太陽",
+    "en": "sun"
+  },
+  {
+    "ja": "雲",
+    "en": "cloud"
+  },
+  {
+    "ja": "雨/雨が降る",
+    "en": "rain"
+  },
+  {
+    "ja": "雨/にわか雨",
+    "en": "shower"
+  },
+  {
+    "ja": "雪/雪が降る",
+    "en": "snow"
+  },
+  {
+    "ja": "霧",
+    "en": "fog"
+  },
+  {
+    "ja": "晴れる",
+    "en": "clear"
+  },
+  {
+    "ja": "ダンサー/おどる人",
+    "en": "dancer"
+  },
+  {
+    "ja": "運転手",
+    "en": "driver"
+  },
+  {
+    "ja": "医者/博士",
+    "en": "doctor/dr."
+  },
+  {
+    "ja": "友だち",
+    "en": "friend"
+  },
+  {
+    "ja": "少女/女の子",
+    "en": "girl"
+  },
+  {
+    "ja": "仕事/職",
+    "en": "job"
+  },
+  {
+    "ja": "警官/役人",
+    "en": "police"
+  },
+  {
+    "ja": "親",
+    "en": "parent"
+  },
+  {
+    "ja": "兄弟",
+    "en": "brother"
+  },
+  {
+    "ja": "おじいさん",
+    "en": "old man"
+  },
+  {
+    "ja": "おばあさん",
+    "en": "grandmother"
+  },
+  {
+    "ja": "いとこ",
+    "en": "cousin"
+  },
+  {
+    "ja": "人",
+    "en": "man"
+  },
+  {
+    "ja": "人々",
+    "en": "people"
+  },
+  {
+    "ja": "ピアニスト",
+    "en": "pianist"
+  },
+  {
+    "ja": "パイロット",
+    "en": "pilot"
+  },
+  {
+    "ja": "競技者/演奏者",
+    "en": "players"
+  },
+  {
+    "ja": "ウエーター",
+    "en": "water"
+  },
+  {
+    "ja": "働く人",
+    "en": "worker"
+  },
+  {
+    "ja": "バスケットボール",
+    "en": "basketball"
+  },
+  {
+    "ja": "テニス",
+    "en": "tennis"
+  },
+  {
+    "ja": "野球",
+    "en": "baseball"
+  },
+  {
+    "ja": "サッカー",
+    "en": "soccer"
+  },
+  {
+    "ja": "バドミントン",
+    "en": "badminton"
+  },
+  {
+    "ja": "卓球",
+    "en": "table tennis"
+  },
+  {
+    "ja": "サーフィン",
+    "en": "surfing"
+  },
+  {
+    "ja": "水泳",
+    "en": "swimming"
+  },
+  {
+    "ja": "マラソン",
+    "en": "marathon"
+  },
+  {
+    "ja": "ボクシング",
+    "en": "boxing"
+  },
+  {
+    "ja": "夕食/ディナー",
+    "en": "dinner"
+  },
+  {
+    "ja": "月(ひとつき)",
+    "en": "month"
+  },
+  {
+    "ja": "色",
+    "en": "colour"
+  },
+  {
+    "ja": "花",
+    "en": "flower"
+  },
+  {
+    "ja": "果物",
+    "en": "fruit"
+  },
+  {
+    "ja": "辞書",
+    "en": "dictionary"
+  },
+  {
+    "ja": "パスポート",
+    "en": "passport"
+  },
+  {
+    "ja": "腕時計",
+    "en": "watch"
+  },
+  {
+    "ja": "黒板",
+    "en": "blackboard"
+  },
+  {
+    "ja": "カレンダー",
+    "en": "calendar"
+  },
+  {
+    "ja": "靴",
+    "en": "shoes"
+  },
+  {
+    "ja": "傘",
+    "en": "umbrella"
+  },
+  {
+    "ja": "新聞",
+    "en": "newspaper"
+  },
+  {
+    "ja": "髪",
+    "en": "hair"
+  },
+  {
+    "ja": "日記",
+    "en": "diary"
+  },
+  {
+    "ja": "手紙",
+    "en": "letter"
+  },
+  {
+    "ja": "壁",
+    "en": "wall"
+  },
+  {
+    "ja": "鳥",
+    "en": "bird"
+  },
+  {
+    "ja": "人形",
+    "en": "doll"
+  },
+  {
+    "ja": "ぶどう",
+    "en": "grape"
+  },
+  {
+    "ja": "カメラ",
+    "en": "camera"
+  },
+  {
+    "ja": "口",
+    "en": "mouth"
+  },
+  {
+    "ja": "硬貨",
+    "en": "coin"
+  },
+  {
+    "ja": "音楽",
+    "en": "music"
+  },
+  {
+    "ja": "考え/意見",
+    "en": "idea"
+  },
+  {
+    "ja": "クラブ/部",
+    "en": "club"
+  },
+  {
+    "ja": "数/番号",
+    "en": "number"
+  },
+  {
+    "ja": "歴史",
+    "en": "history"
+  },
+  {
+    "ja": "物語/話",
+    "en": "story"
+  },
+  {
+    "ja": "科目",
+    "en": "subject"
+  },
+  {
+    "ja": "飛行機",
+    "en": "plane"
+  },
+  {
+    "ja": "皿",
+    "en": "plate"
+  },
+  {
+    "ja": "木",
+    "en": "wood"
+  },
+  {
+    "ja": "（テレビなど）見る",
+    "en": "look"
+  },
+  {
+    "ja": "～が欲しい",
+    "en": "want"
+  },
+  {
+    "ja": "～をつくる",
+    "en": "create"
+  },
+  {
+    "ja": "勉強する",
+    "en": "study"
+  },
+  {
+    "ja": "～を持つ/手に入れる",
+    "en": "get"
+  },
+  {
+    "ja": "～をとる",
+    "en": "take"
+  },
+  {
+    "ja": "～を書く",
+    "en": "write"
+  },
+  {
+    "ja": "～を使う",
+    "en": "use"
+  },
+  {
+    "ja": "～を洗う",
+    "en": "wash"
+  },
+  {
+    "ja": "～を話す",
+    "en": "talk"
+  },
+  {
+    "ja": "聴く",
+    "en": "listen"
+  },
+  {
+    "ja": "見る",
+    "en": "look"
+  },
+  {
+    "ja": "～を知る",
+    "en": "know"
+  },
+  {
+    "ja": "歩く",
+    "en": "walk"
+  },
+  {
+    "ja": "スキーをする",
+    "en": "ski"
+  },
+  {
+    "ja": "始める",
+    "en": "start"
+  },
+  {
+    "ja": "話す",
+    "en": "talk"
+  },
+  {
+    "ja": "教える",
+    "en": "teach"
+  },
+  {
+    "ja": "～する/～を行う",
+    "en": "do"
+  },
+  {
+    "ja": "考える",
+    "en": "think"
+  },
+  {
+    "ja": "～が欲しい",
+    "en": "want"
+  },
+  {
+    "ja": "～を閉める",
+    "en": "close"
+  },
+  {
+    "ja": "～をあげる・与える",
+    "en": "give"
+  },
+  {
+    "ja": "ダンスする",
+    "en": "dance"
+  },
+  {
+    "ja": "立つ",
+    "en": "stand"
+  },
+  {
+    "ja": "待つ",
+    "en": "wait"
+  },
+  {
+    "ja": "～を置く",
+    "en": "put"
+  },
+  {
+    "ja": "ブラシをかける",
+    "en": "brush"
+  },
+  {
+    "ja": "乗る",
+    "en": "ride"
+  },
+  {
+    "ja": "キャンプをする",
+    "en": "camp"
+  },
+  {
+    "ja": "～を習う/学ぶ",
+    "en": "learn"
+  },
+  {
+    "ja": "にっこりする/笑う",
+    "en": "smile"
+  },
+  {
+    "ja": "始める",
+    "en": "start"
+  },
+  {
+    "ja": "練習する",
+    "en": "practice"
+  },
+  {
+    "ja": "～を運転する",
+    "en": "drive"
+  },
+  {
+    "ja": "お願いする",
+    "en": "please"
+  },
+  {
+    "ja": "～を言う",
+    "en": "tell"
+  },
+  {
+    "ja": "とどまる・いる",
+    "en": "stay"
+  },
+  {
+    "ja": "動く",
+    "en": "move"
+  },
+  {
+    "ja": "回る/（角で）曲がる",
+    "en": "turn"
+  },
+  {
+    "ja": "～を訪ねる/会いに行く",
+    "en": "visit"
+  },
+  {
+    "ja": "～をやってみる/試す",
+    "en": "try"
+  }
+]
