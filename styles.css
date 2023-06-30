@@ -41,6 +41,11 @@ body {
 .correct-spelling {
     font-size: 2em;
     color: red;
+    height: 2.5em;  /* 新しいプロパティ */
+}
+
+#resultText {
+    height: 2em;  /* 新しいプロパティ */
 }
 
 .correct-spelling, #resultText {
