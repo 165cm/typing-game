@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1>タイピングゲーム</h1>
+        <p id="wordToSpell"></p>
+        <input type="text" id="answer" onkeydown="if(event.keyCode==13) document.getElementById('submit').click()">
+        <button id="submit">確定</button>
+        <p id="resultText"></p>
+        <p id="correctSpelling" class="correct-spelling"></p>
+        <p id="stats"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
