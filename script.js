@@ -29,10 +29,9 @@ document.getElementById("submit").onclick = function() {
         correctCount++;
         correctSpelling.innerText = "";  // Clear the correct spelling if it's a correct answer
     } else {
-        resultText.innerText = "不正解、正しいスペルはこちら";
+        resultText.innerText = `正しくは: ${wordList[questionCount].en}`;
         resultText.style.color = "red";
         incorrectCount++;
-        correctSpelling.innerText = wordList[questionCount].en;  // Display the correct spelling
     }
 
     // Update stats
