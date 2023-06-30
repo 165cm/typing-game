@@ -45,6 +45,7 @@ document.getElementById("submit").onclick = function() {
         document.getElementById("answer").value = "";  // Clear the answer box
     } else {
         document.getElementById("wordToSpell").innerText = "ゲーム終了！";
-        document.getElementById("answer").disabled = true;                document.getElementById("submit").disabled = true;  // Disable the submit button
+        document.getElementById("answer").disabled = true;
+        document.getElementById("submit").disabled = true;  // Disable the submit button
     }
 }
