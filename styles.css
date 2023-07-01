@@ -68,12 +68,11 @@ body {
   #answer, #submit {
     position: fixed;
     bottom: 20px; /* Adjust as needed */
-    width: 60%; /* Adjust as needed */
+    width: 30%; /* Adjust as needed */
   }
 
   #submit {
     right: 20px; /* Adjust as needed */
-    margin-top: 1em; /* Add space above the submit button */
   }
 
   #answer {
