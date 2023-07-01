@@ -58,7 +58,7 @@ body {
 /* New media query for smartphones */
 @media (max-width: 600px) {
   .main {
-    height: 25vh; /* Make the main div take up the full height */
+    height: 50vh; /* Make the main div take up the full height */
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
