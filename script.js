@@ -38,7 +38,7 @@ document.getElementById("submit").onclick = function() {
 
     // Prepare next word
     questionCount++;
-    if (questionCount >= 1) { // After the second question
+    if (questionCount >= 0) { // After the second question
         document.getElementById("title").classList.add("hidden"); // Hide the title
       }
     if (questionCount < 20) {  // We only want 20 questions
