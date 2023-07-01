@@ -1,67 +1,81 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #FFDAB9;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #FFDAB9;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #333;
 }
 
 .main {
-    text-align: center;
-    padding: 1em;
-    border-radius: 1em;
-    background: #FFF8DC;
-    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1em;
+  border-radius: 1em;
+  background: #FFF8DC;
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
+  width: 80%;  /* Adjust width as necessary */
+  max-width: 500px;  /* Adjust max-width as necessary */
+  position: relative; /* Add this */
 }
 
 #wordToSpell, #resultText, #stats {
-    font-size: 1.5em;
-    margin: 0.5em 0;
+  font-size: 1.5em;
+  margin: 0.5em 0;
 }
 
 #answer {
-    font-size: 1em;
-    padding: 0.5em;
-    margin: 0.5em 0;
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em 0;
 }
 
 #submit {
-    font-size: 1em;
-    padding: 0.5em 1em;
-    margin: 0.5em 0;
-    background: #FFE4B5;
-    border: none;
-    border-radius: 0.5em;
-    cursor: pointer;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  background: #FFE4B5;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
 }
 
 .correct-spelling {
-    font-size: 2em;
-    color: red;
-    height: 2.5em;  /* 新しいプロパティ */
+  font-size: 2em;
+  color: red;
+  height: 2.5em; /* 新しいプロパティ */
 }
 
 #resultText {
-    height: 2em;  /* 新しいプロパティ */
+  height: 2em; /* 新しいプロパティ */
 }
 
 .correct-spelling, #resultText {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
+/* New media query for smartphones */
 @media (max-width: 600px) {
-  #wordToSpell, #resultText, #stats { 
-    font-size: 2em; 
-  } 
+  .main {
+    height: 100vh; /* Make the main div take up the full height */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto; /* Make it scrollable */
+  }
 
-  #answer, #submit { 
-    font-size: 1.5em; 
-  } 
+  #answer, #submit {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
+  }
 
-  .correct-spelling { 
-    font-size: 2.5em; 
-  } 
+  #submit {
+    right: 20px; /* Adjust as needed */
+  }
+
+  #answer {
+    left: 20px; /* Adjust as needed */
+  }
 }
