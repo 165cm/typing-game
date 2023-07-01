@@ -66,9 +66,8 @@ body {
   }
 
   #answer, #submit {
-    position: fixed;
-    bottom: 20px; /* Adjust as needed */
-    width: 30%; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
+    margin-bottom: 20px; /* Add some bottom margin to space out the elements */
   }
 
   #submit {
