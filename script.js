@@ -16,6 +16,7 @@ fetch('wordList.json')
     .then(json => {
         wordList = shuffle(json);  // Shuffle the word list
         document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
+        document.getElementById("answer").value = wordList[questionCount].en.charAt(0);  // Pre-fill the first character
     });
 
 document.getElementById("submit").onclick = function() {
@@ -29,7 +30,7 @@ document.getElementById("submit").onclick = function() {
         correctCount++;
         correctSpelling.innerText = "";  // Clear the correct spelling if it's a correct answer
     } else {
-        resultText.innerText = `正解は: ${wordList[questionCount].en}`;
+        resultText.innerText = `不正解、正しいスペルは: ${wordList[questionCount].en}`;
         resultText.style.color = "red";
         incorrectCount++;
     }
@@ -38,7 +39,7 @@ document.getElementById("submit").onclick = function() {
     questionCount++;
     if (questionCount < 20) {  // We only want 20 questions
         document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
-        document.getElementById("answer").value = "";  // Clear the answer box
+        document.getElementById("answer").value = wordList[questionCount].en.charAt(0);  // Pre-fill the first character
     } else {
         document.getElementById("wordToSpell").innerText = "ゲーム終了！";
         document.getElementById("answer").disabled = true;
@@ -46,6 +47,6 @@ document.getElementById("submit").onclick = function() {
 
         // Calculate and display the score
         let score = Math.round((correctCount / (correctCount + incorrectCount)) * 100);
-        document.getElementById("stats").innerText = `点数: ${score}点`;
+        document.getElementById("stats").innerText = `正解率: ${score}点`;
     }
 }
