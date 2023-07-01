@@ -55,6 +55,11 @@ body {
   margin-top: 1em;
 }
 
+.hidden {
+  display: none;
+}
+
+
 /* New media query for smartphones */
 @media (max-width: 600px) {
   .main {
