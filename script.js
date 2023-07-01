@@ -38,6 +38,9 @@ document.getElementById("submit").onclick = function() {
 
     // Prepare next word
     questionCount++;
+    if (questionCount >= 2) { // After the second question
+        document.getElementById("title").classList.add("hidden"); // Hide the title
+      }
     if (questionCount < 20) {  // We only want 20 questions
         document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
         document.getElementById("answer").value = wordList[questionCount].en.charAt(0);  // Pre-fill the first character
