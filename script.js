@@ -31,14 +31,14 @@ document.getElementById("submit").onclick = function() {
         correctCount++;
         correctSpelling.innerText = "";  // Clear the correct spelling if it's a correct answer
     } else {
-        resultText.innerText = `不正解、正しいスペルは: ${wordList[questionCount].en}`;
+        resultText.innerText = `正解は: ${wordList[questionCount].en}`;
         resultText.style.color = "red";
         incorrectCount++;
     }
 
     // Prepare next word
     questionCount++;
-    if (questionCount >= 2) { // After the second question
+    if (questionCount >= 1) { // After the second question
         document.getElementById("title").classList.add("hidden"); // Hide the title
       }
     if (questionCount < 20) {  // We only want 20 questions
