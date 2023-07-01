@@ -44,11 +44,11 @@ body {
 .correct-spelling {
   font-size: 2em;
   color: red;
-  height: 2.5em; /* 新しいプロパティ */
+  height: 2.5em;
 }
 
 #resultText {
-  height: 2em; /* 新しいプロパティ */
+  height: 2em;
 }
 
 .correct-spelling, #resultText {
@@ -67,7 +67,7 @@ body {
 
   #answer, #submit {
     position: fixed;
-    bottom: 20px; /* Adjust as needed */
+    bottom: 50%; /* Adjust as needed */
     width: 80%; /* Adjust as needed */
   }
 
