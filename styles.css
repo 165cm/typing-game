@@ -1,8 +1,8 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: flex-start;
+  height: 50vh;
   margin: 0;
   background-color: #FFDAB9;
   font-family: 'Comic Sans MS', cursive, sans-serif;
