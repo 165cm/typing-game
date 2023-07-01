@@ -59,7 +59,7 @@ body {
 @media (max-width: 600px) {
   .main {
     height: 50vh; /* Make the main div take up the full height */
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     overflow-y: auto; /* Make it scrollable */
@@ -68,11 +68,12 @@ body {
   #answer, #submit {
     position: fixed;
     bottom: 20px; /* Adjust as needed */
-    width: 80%; /* Adjust as needed */
+    width: 60%; /* Adjust as needed */
   }
 
   #submit {
     right: 20px; /* Adjust as needed */
+    margin-top: 1em; /* Add space above the submit button */
   }
 
   #answer {
