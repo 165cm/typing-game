@@ -17,6 +17,7 @@ fetch('wordList.json')
         wordList = shuffle(json);  // Shuffle the word list
         document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
         document.getElementById("answer").value = wordList[questionCount].en.charAt(0);  // Pre-fill the first character
+        document.getElementById("answer").focus(); // Pre-focus
     });
 
 document.getElementById("submit").onclick = function() {
@@ -40,6 +41,7 @@ document.getElementById("submit").onclick = function() {
     if (questionCount < 20) {  // We only want 20 questions
         document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
         document.getElementById("answer").value = wordList[questionCount].en.charAt(0);  // Pre-fill the first character
+        document.getElementById("answer").focus(); // Pre-focus
     } else {
         document.getElementById("wordToSpell").innerText = "ゲーム終了！";
         document.getElementById("answer").disabled = true;
