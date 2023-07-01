@@ -29,13 +29,10 @@ document.getElementById("submit").onclick = function() {
         correctCount++;
         correctSpelling.innerText = "";  // Clear the correct spelling if it's a correct answer
     } else {
-        resultText.innerText = `正しくは: ${wordList[questionCount].en}`;
+        resultText.innerText = `不正解、正しいスペルは: ${wordList[questionCount].en}`;
         resultText.style.color = "red";
         incorrectCount++;
     }
-
-    // Update stats
-    document.getElementById("stats").innerText = `合計: ${correctCount + incorrectCount}, 正解: ${correctCount}, 不正解: ${incorrectCount}`;
 
     // Prepare next word
     questionCount++;
@@ -46,20 +43,9 @@ document.getElementById("submit").onclick = function() {
         document.getElementById("wordToSpell").innerText = "ゲーム終了！";
         document.getElementById("answer").disabled = true;
         document.getElementById("submit").disabled = true;  // Disable the submit button
-    }
 
-    // Prepare next word
-    questionCount++;
-    if (questionCount < 20) { // We only want 20 questions
-        document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
-        document.getElementById("answer").value = ""; // Clear the answer box
-    } else {
-        document.getElementById("wordToSpell").innerText = "ゲーム終了！";
-        document.getElementById("answer").disabled = true; 
-        document.getElementById("submit").disabled = true; // Disable the submit button
-    
         // Calculate and display the score
         let score = Math.round((correctCount / (correctCount + incorrectCount)) * 100);
         document.getElementById("stats").innerText = `正解率: ${score}点`;
-}
+    }
 }
