@@ -3,6 +3,17 @@ let questionCount = 0;  // This will keep track of how many questions have been 
 let correctCount = 0;
 let incorrectCount = 0;
 
+const mysql = require('mysql2');
+
+// create the connection to database
+const connection = mysql.createConnection({
+  host: '127.0.0.1',
+  port: 3306,
+  user: process.env.DB_USERNAME,
+  password: process.env.DB_PASSWORD,
+  database: 'spelling'
+});
+
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -11,14 +22,20 @@ function shuffle(array) {
     return array;
 }
 
-fetch('wordList.json')
-    .then(response => response.json())
-    .then(json => {
-        wordList = shuffle(json);  // Shuffle the word list
-        document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
-        document.getElementById("answer").value = wordList[questionCount].en.charAt(0);  // Pre-fill the first character
-        document.getElementById("answer").focus(); // Pre-focus
-    });
+connection.query(
+  'SELECT * FROM your_table',  // Replace 'your_table' with your actual table name
+  function(err, results) {
+    if(err) {
+      console.error(err);
+    } else {
+      wordList = shuffle(results);  // Shuffle the word list
+      document.getElementById("wordToSpell").innerText = wordList[questionCount].ja;
+      document.getElementById("answer").value = wordList[questionCount].en.charAt(0);  // Pre-fill the first character
+      document.getElementById("answer").focus(); // Pre-focus
+    }
+  }
+);
+
 
 document.getElementById("submit").onclick = function() {
     let userAnswer = document.getElementById("answer").value;
