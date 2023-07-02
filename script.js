@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 let wordList = [];  // We will load this from the JSON file
 let questionCount = 0;  // This will keep track of how many questions have been asked
 let correctCount = 0;
